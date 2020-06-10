@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic 8 Ball</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<html lang="en">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script type="text/javascript" src="main.js"></script>
+	<div class="page">
+			<div class="content">
+			
+			<div class="header">	
+				<h1>MAGIC <span>8</span> BALL</h1>
+		    	<p> Ask me anything you want </p>
+				<input type="text" id="question"/>
+			</div>
+
+			<div id="eight-ball" class="ball">
+				<img id="8ball" src=magic8ball.png>
+				<div class="answer">
+				<p id="eight">8</p>
+				<p id="answer"></p>
+			</div>
+			</div>
+	  </div>
+	  </div>
+	  <div class="reset">
+	  		<form>
+	  			<input type="button" name="reset" value="Reset" onClick="history.go(0)">
+	  		</form>
+		</div>
+</body>
+</html>
